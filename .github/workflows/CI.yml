@@ -1,0 +1,6 @@
+resources:
+  dashboards:
+    sales_dashboard:
+      display_name: 'Sales Dashboard'
+      file_path: ./dashboards/sales_dashboard.lvdash.json
+      warehouse_id: ${var.warehouse_id}
